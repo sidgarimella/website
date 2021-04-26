@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body>
+    <div id="profileContainer">
+      <div id="profile">
+        <header>
+          <!-- avator -->
+          <div class="avatar">
+            <img class="avatarMask" src="/img/{{ .Site.Params.avatar }}" alt="{{ .Site.Params.avatarDescription }}">
+            <img src="/img/avatar-border.svg" class="avatar-border" alt="">
+          </div>
+          <!-- author -->
+        </header>
+        <!-- description -->
+        <p style="margin-left: 45px;font-weight: 600;font-size: large;margin-right: 45px;">
+I enjoy difficult, emergent problems in digital productivity and human-computer interaction, and get to work on some in my current role at <a href="http://prefix.app/">Prefix</a>. In previous years, I worked on clustering research and data products at various engineering roles in & around financial services.        
+
+</p>
+        <!-- navigation -->
+        <nav style="margin-top:2rem">
+          <ul>
+            {{ range .Site.Menus.main }}
+            <li><a href="{{ .URL }}" aria-label="{{ .Identifier }}">{{ .Pre }}<br>{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
