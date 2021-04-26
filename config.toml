@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "http://sidgarimella.com/"
 title = "Sid Garimella"
 theme = "pulp"
 canonifyurls = true
@@ -16,7 +16,7 @@ hasCJKLanguage = true
     # avatarDescription = "My avatar description"
     favicon = "favicon.ico"
     description = """
-    I enjoy difficult, emergent problems in digital productivity and human-computer interaction, and get to work on some in my current role at Prefix. In previous years, I worked on clustering research and data products at various engineering roles in & around financial services.
+    I enjoy difficult, emergent problems in digital productivity and human-computer interaction, and get to work on some in my current role at Prefix. In previous years, I worked on clustering research and data products with engineering teams in & around financial services.
     """
     # publicationYear = "2019"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
